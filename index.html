@@ -7,24 +7,73 @@
     <title>
         <Page Title>
     </title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <meta name='viewport' content='width=device-width, initial-scale=0.5'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./main.css'>
+    <!-- <script src='main.js'></script> -->
 </head>
 
-<body>
+<body class="bckgrnd">
+    <!-- <div class="heading"> -->
+    <div>
+        <div>
+            <h2>Daily Weather Forecast</h2>
+        </div>
+        <div class="titles">
+            <label>Input your City of Choice</label>
+            <input type="text" id="city" value="Paris">
+        </div>
 
-    <div class="bckgrnd">
-        <div class="heading">
-            <div>
-                <div class="titles">
-                    <h2>Daily Weather Forecast</h2>
-                </div>
-                <div>
-                    <label>Input your City of Choice</label>
-                    <input type="text" id="city" onpointerenter="geoPlace">
-                </div>
-                <img src="./images/Rainy.ico">
+    </div>
+
+    <div class="part1_flex">
+        <div class="flex_item">
+            <img src="./images/Light Rain.jpg" alt="light Rainy" class="img0">
+        </div>
+        <div class="flex_item">
+            <label>Temperature </label>
+            <label>20 deg</label><br>
+            <label>Pressure</label>
+            <label>106</label><br>
+            <label>Humidity</label>
+            <label>50%</label>
+        </div>
+    </div>
+    <div class="bckgrnd1">
+        <div class="part2_flex">
+            <div class="flex_item2">
+                <p id="time1">08:00</p>
+                <img id="img1" class="img1" src="images/Cloudy.jpg">
+                <p id="temp">15 deg</p>
+            </div>
+            <div class="flex_item2">
+                <p id="time1">11:00</p>
+                <img id="img1" class="img1" src="./images/Cloudy.jpg">
+                <p id="temp">-02 deg</p>
+            </div>
+            <div class="flex_item2">
+                <p id="time1">14:00</p>
+                <img id="img1" class="img1" src="./images/Snowy.jpg">
+                <p id=" temp">25 deg</p>
+            </div>
+            <div class="flex_item2">
+                <p id="time1">17:00</p>
+                <img id="img1" class="img1" src="./images/Snowy.jpg">
+                <p id=" temp">25 deg</p>
+            </div>
+            <div class="flex_item2">
+                <p id="time1">20:00</p>
+                <img id="img1" class="img1" src="./images/Snowy.jpg">
+                <p id=" temp">25 deg</p>
+            </div>
+            <div class="flex_item2">
+                <p id="time1">23:00</p>
+                <img id="img1" class="img1" src="./images/Light Rain.jpg">
+                <p id=" temp">25 deg</p>
+            </div>
+            <div class="flex_item2">
+                <p id="time1">20:00</p>
+                <img id="img1" class="img1" src="./images/Thunder.jpg">
+                <p id=" temp">25 deg</p>
             </div>
         </div>
     </div>

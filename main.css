@@ -1,23 +1,94 @@
-.heading {
-    height: 8%;
-    width: 100%;
-    color: #fff;
-    /* display: inline; */
-}
-
-body {
+*/ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    text-align: center;
 }
 
-.bckgrnd { 
-    background-image: url("./images/Bckgrnd_rainy.jpg")
+.center1 {
+    display: contents;
+    align-content: center;
+    margin-left: 250px;
+}
+
+.part1_flex {
+    margin-top: 2%;
+    margin-left: 22%;
+
+    height: 10%;
+    width: min-content;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flex_item {
+    font-size: xx-large;
+    padding-top: 2%;
+    margin: 2%;
+    border-top: 2%;
+    background-color: rgb(201, 187, 214);
+    flex: content;
+}
+
+.img0 {
+    border-radius: 20%;
+    height: 350px;
+    width: auto;
+}
+
+.flex_item2 {
+    border-radius: 20%;
+    padding-top: 2%;
+    margin: 4%;
+    border-top: 2%;
+    background-color: rgb(201, 187, 214);
+    flex: content;
+    align-content: space-evenly;
+    color: rgb(252, 240, 255);
+}
+
+
+
+.part2_flex {
+    border-radius: 25%;
+    margin-top: 22%;
+    margin-left: 2%;
+    height: auto;
+    width: min-content;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: row;
+
+}
+
+.img1 {
+    border-radius: 10%;
+    height: 110px;
+    width: auto;
+}
+
+.bckgrnd1 {
+    border-radius: 0%;
+    background-color: blueviolet;
+}
+
+.bckgrnd {
+    background-image: url("./images/Bckgrnd_lightRain.jpg");
+    text-align: center;
+    image-rendering: pixelated;
+    background-size: cover;
+    background-clip: padding-box;
 }
 
 #city {
-    text-align:center
+    text-align: center
 }
 
-.titles { text-align: center; 
+.titles,
+input {
+    font-size: xx-large;
+    font-weight: 600;
     display: inline;
     /* margin-left: 400px; */
 }
