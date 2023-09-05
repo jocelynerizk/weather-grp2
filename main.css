@@ -1,0 +1,23 @@
+.heading {
+    height: 8%;
+    width: 100%;
+    color: #fff;
+    /* display: inline; */
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bckgrnd { 
+    background-image: url("./images/Bckgrnd_rainy.jpg")
+}
+
+#city {
+    text-align:center
+}
+
+.titles { text-align: center; 
+    display: inline;
+    /* margin-left: 400px; */
+}
